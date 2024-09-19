@@ -1,0 +1,14 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore Python bytecode cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore alembic database migration
+alembic
+
