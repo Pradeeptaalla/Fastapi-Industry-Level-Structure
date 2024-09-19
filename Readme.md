@@ -44,12 +44,13 @@ Database Migrations with Alembic
 
 # Creating New Migrations
 
+### Upgrading Migrations
 Whenever you make changes to your database models, create a new migration file and apply the changes using the following commands:
 ```
 alembic revision --autogenerate -m "Describe your changes"
 alembic upgrade head
 ```
-###Downgrading Migrations
+### Downgrading Migrations
 To downgrade a migration, use the following command (replace 55c70d0954c6_adding_new_changes with the target revision ID):
 
 ```
