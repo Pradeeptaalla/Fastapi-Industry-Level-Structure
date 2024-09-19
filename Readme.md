@@ -9,11 +9,10 @@ Follow the steps below to set up and run the project on your local machine.
 To install all required packages, use the following command:
 
 ```bash
+
 pip install -r requirements.txt
 
-
-
-
+```
 
 
 Step 2: Set Up Database Migration
